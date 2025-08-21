@@ -20,7 +20,7 @@ Kaggle: https://www.kaggle.com/datasets/sudipde25/mri-dataset-for-detection-and-
 https://github.com/Rumit95/Semantic-Segmentation-of-Image 
 
 
-**Trained on**
+# Trained on
 kaggle accelerator==TPU VM v3-8
 
 # Prerequisites
