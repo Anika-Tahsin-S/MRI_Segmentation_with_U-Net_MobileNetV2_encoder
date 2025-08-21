@@ -1,0 +1,2 @@
+# MRI_Segmentation_with_U-Net_MobileNetV2_encoder
+Lightweight U-Net with MobileNetV2 encoder for 2D MRI/CT segmentation on Kaggle’s “MRI dataset for detection and analysis.” Converts 3D NIfTI to 2D, z-score normalizes images, binarizes masks (nearest-neighbor). Trains with BCE+Dice, AMP, grad clipping, early stopping; runs a threshold sweep and outputs visuals. Reproducible (SMP v0.3.3, timm&lt;1.0).
