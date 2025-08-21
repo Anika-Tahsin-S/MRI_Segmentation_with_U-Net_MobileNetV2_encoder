@@ -13,10 +13,10 @@ Lightweight U-Net with MobileNetV2 encoder (via segmentation-models-pytorch) for
 
 
 # Acknowledgements
-Dataset: MRI dataset for detection and analysis (Kaggle).
+- Dataset: MRI dataset for detection and analysis (Kaggle).
 Kaggle: https://www.kaggle.com/datasets/sudipde25/mri-dataset-for-detection-and-analysis/data
 
-Model: segmentation-models-pytorch (U-Net + MobileNetV2).
+- Model: segmentation-models-pytorch (U-Net + MobileNetV2).
 https://github.com/Rumit95/Semantic-Segmentation-of-Image 
 
 
@@ -25,25 +25,25 @@ kaggle accelerator==TPU VM v3-8
 
 # Prerequisites
 **Core DL**
-torch>=1.10
-torchvision>=0.11
+- torch>=1.10
+- torchvision>=0.11
 
 **Segmentation Models (exact pins used in notebook)**
-segmentation-models-pytorch==0.3.3
-timm==0.9.2
-pretrainedmodels==0.7.4
-efficientnet-pytorch==0.7.1
+- segmentation-models-pytorch==0.3.3
+- timm==0.9.2
+- pretrainedmodels==0.7.4
+- efficientnet-pytorch==0.7.1
 
 **Data & vision utils**
-albumentations>=1.3.0,<2.0.0
-opencv-python>=4.7.0,<5.0.0
-nibabel>=5.1.0
+- albumentations>=1.3.0,<2.0.0
+- opencv-python>=4.7.0,<5.0.0
+- nibabel>=5.1.0
 
 **Metrics / plotting / tools**
-scikit-learn>=1.0
-matplotlib>=3.6
-numpy>=1.23
-pandas>=1.5
-tqdm>=4.65
-scipy>=1.9
-seaborn>=0.12
+- scikit-learn>=1.0
+- matplotlib>=3.6
+- numpy>=1.23
+- pandas>=1.5
+- tqdm>=4.65
+- scipy>=1.9
+- seaborn>=0.12
