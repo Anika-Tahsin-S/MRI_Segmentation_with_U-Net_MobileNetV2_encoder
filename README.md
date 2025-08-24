@@ -11,6 +11,7 @@ Lightweight U-Net with MobileNetV2 encoder (via segmentation-models-pytorch) for
 - Sweeps thresholds to pick the best inference cutoff
 - Visualizes predictions with overlays (and optional largest-CC post-processing for presentation)
 
+**Kaggle Link:** https://www.kaggle.com/code/anikatahsin8/brain-mri-segmentation-with-mobilenetv2
 
 # Acknowledgements
 - Dataset: MRI dataset for detection and analysis (Kaggle).
